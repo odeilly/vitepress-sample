@@ -43,6 +43,8 @@ jobs:
           cache: pnpm # or pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        with:
+          path: docs/.vitepress/config.mts
       - name: Install dependencies
         run: pnpm ci # or pnpm install / yarn install / bun install
       - name: Build with VitePress
