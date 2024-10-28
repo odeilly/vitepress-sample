@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/vitepress-sample/',
   title: "Sample Site",
   description: "Sample Site",
   lang: 'ja',
